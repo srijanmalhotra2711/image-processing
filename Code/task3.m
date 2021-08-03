@@ -5,12 +5,12 @@ i1 = imread('C:\Users\Lenovo\Pictures\butterfly.jpg');
 i2 = imread('C:\Users\Lenovo\Pictures\tiger.jpg');
 i1 = rgb2gray(i1);
 i2 = rgb2gray(i2);
- 
+
 [m n] = size(i1);
  for k=1:m
     for l=1:n
         b7(k,l) = bitand(i1(k,l),128);
-        b6(k,l) = bitand(i1(k,l),64);
+        b6(k,l) = bitand(i1(k,l),64); 
         b5(k,l) = bitand(i1(k,l),32);
         b4(k,l) = bitand(i1(k,l),16);
         b3(k,l) = bitand(i1(k,l),8);
@@ -29,9 +29,9 @@ subplot(3,3,6),imshow(b4),title('b4');
 subplot(3,3,7),imshow(b5),title('b5');
 subplot(3,3,8),imshow(b6),title('b6');
 subplot(3,3,9),imshow(b7),title('b7');
- 
+
 [p q] = size(i2);
- 
+
 for k=1:p
     for l=1:q
         c7(k,l) = bitand(i2(k,l),128);
