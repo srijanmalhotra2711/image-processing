@@ -1,7 +1,7 @@
 I = imread('C:\Users\Lenovo\Pictures\butterfly.jpg');
 figure
 imshow(I)
-J = imnoise(I,'salt & pepper',0.02);
+J = imnoise(I,'salt & pepper',0.02); 
 figure
 imshow(J)
 b = imsharpen(J);
