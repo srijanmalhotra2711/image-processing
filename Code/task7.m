@@ -24,4 +24,3 @@ k=ifft2(f);
 figure
 imshow(k,[]);
 title('Reconstructed Image');
- 
