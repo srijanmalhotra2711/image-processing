@@ -9,4 +9,4 @@ for i=1: size(C,1)
         D(i,j)=sum(B&C(i,j:j+6));
     end
 end
-figure,imshow(D);
+figure,imshow(D);  
