@@ -9,4 +9,4 @@ J(abs(J) < 10) = 0;
 K = idct2(J);
 figure
 imshowpair(I,K,'montage')
-title('Original Grayscale Image (Left) and Processed Image (Right)');
+title('Original Grayscale Image (Left) and Processed Image (Right)'); 
