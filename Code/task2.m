@@ -2,7 +2,7 @@ clc
 clear all
 close all
 
-i1 = imread('D:\Photos\Phone Photos\IMG_1525.JPG');
+i1 = imread('D:\Photos\Phone Photos\Vellore\IMG_1525.JPG');
 i2 = imread('C:\Users\Lenovo\Pictures\tiger.jpg');
 i1 = rgb2gray(i1)
 i2 = rgb2gray(i2)
